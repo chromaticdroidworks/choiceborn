@@ -9,7 +9,7 @@ public class A1ImpressumActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a1activity_impressum);
+        setContentView(R.layout.a1story);
         setTitle(R.string.impressum_title);
 
         MaterialButton toHome = findViewById(R.id.btnToHome);
