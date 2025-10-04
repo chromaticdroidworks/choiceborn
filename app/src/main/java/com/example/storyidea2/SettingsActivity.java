@@ -14,7 +14,7 @@ public class SettingsActivity extends AppCompatActivity {
 
     private static final String PREFS = "app_settings";
     private static final String KEY_SOUND = "sound_enabled";
-    private static final String KEY_THEME = "theme_mode";     // 0 = System, 1 = Light, 2 = Dark
+    private static final String KEY_THEME = "theme_mode";     // 0 = System, 2 = Dark (Light wird aktuell nicht gespeichert)
     private static final String KEY_TEXTSIZE = "text_scale";  // Prozentwert 100–150
 
     private SwitchCompat swSound;
