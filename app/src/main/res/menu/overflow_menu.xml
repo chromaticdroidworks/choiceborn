@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:title="Startseite" />
+    <item
+        android:id="@+id/action_new_story"
+        android:title="Hitlers Beginn" />
+    <item
+        android:id="@+id/action_new_story2"
+        android:title="KI Revolution" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="Einstellungen" />
+    </menu>
+

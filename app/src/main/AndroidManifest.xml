@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.storyidea2">
+
+    <application
+        android:allowBackup="true"
+        android:label="Choiceborn"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+
+
+        <activity android:name=".A2MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".A1ImpressumActivity" android:exported="false" />
+        <activity android:name=".A3Story" android:exported="false" />
+        <activity android:name=".A4Story" android:exported="false" />
+        <activity android:name=".A5Story" android:exported="false" />
+        <activity android:name=".A6Story" android:exported="false" />
+        <activity android:name=".A7Story" android:exported="false" />
+        <activity android:name=".A8Story" android:exported="false" />
+        <activity android:name=".A9Story" android:exported="false" />
+        <activity android:name=".A10Story" android:exported="false" />
+        <activity android:name=".A11Story" android:exported="false" />
+        <activity android:name=".A12Story" android:exported="false" />
+        <activity android:name=".A13Story" android:exported="false" />
+        <activity android:name=".A14Story" android:exported="false" />
+        <activity android:name=".A15Story" android:exported="false" />
+        <activity android:name=".A16Story" android:exported="false" />
+        <activity android:name=".A17Story" android:exported="false" />
+        <activity android:name=".A18Story" android:exported="false" />
+        <activity android:name=".A19Story" android:exported="false" />
+        <activity android:name=".A20Story" android:exported="false" />
+        <activity android:name=".A21Story" android:exported="false" />
+        <activity android:name=".A22Story" android:exported="false" />
+        <activity android:name=".A23Story" android:exported="false" />
+        <activity android:name=".A24Story" android:exported="false" />
+        <activity android:name=".A25Story" android:exported="false" />
+        <activity android:name=".A26Story" android:exported="false" />
+        <activity android:name=".A27Story" android:exported="false" />
+        <activity android:name=".A28Story" android:exported="false" />
+        <activity android:name=".A29Story" android:exported="false" />
+        <activity android:name=".A30Story" android:exported="false" />
+        <activity android:name=".A31Story" android:exported="false" />
+        <activity android:name=".A32Story" android:exported="false" />
+        <activity android:name=".A33Story" android:exported="false" />
+        <activity android:name=".A34Story" android:exported="false" />
+        <activity android:name=".A35Story" android:exported="false" />
+        <activity android:name=".A36Story" android:exported="false" />
+        <activity android:name=".A37Story" android:exported="false" />
+        <activity android:name=".A38Story" android:exported="false" />
+        <activity android:name=".A39Story" android:exported="false" />
+        <activity android:name=".A40Story" android:exported="false" />
+        <activity android:name=".A100Story" android:exported="false" />
+        <activity android:name=".X1Death" android:exported="false" />
+        <activity android:name=".B1MainActivity" android:exported="false"/>
+        <activity android:name=".B2Story" android:exported="false" />
+        <activity android:name=".X2Death" android:exported="false"/>
+        <activity android:name=".X3Death" android:exported="false"/>
+        <activity android:name=".X4Death" android:exported="false"/>
+        <activity android:name=".X5Death" android:exported="false"/>
+        <activity android:name=".X6Death" android:exported="false"/>
+        <activity android:name=".X7Death" android:exported="false"/>
+        <activity android:name=".X8Death" android:exported="false"/>
+        <activity android:name=".X9Death" android:exported="false"/>
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".G1MainActivity" android:exported="false"/>
+        <activity android:name=".G2Story" android:exported="false"/>
+        <activity android:name=".G3Story" android:exported="false"/>
+        <activity android:name=".G4Story"  android:exported="false"/>
+        <activity android:name=".G5Story"  android:exported="false"/>
+        <activity android:name=".G6Story"  android:exported="false"/>
+        <activity android:name=".G7Story"  android:exported="false"/>
+        <activity android:name=".G8Story"  android:exported="false"/>
+        <activity android:name=".G9Story"  android:exported="false"/>
+        <activity android:name=".G10Story" android:exported="false"/>
+        <activity android:name=".G11Story" android:exported="false"/>
+        <activity android:name=".G12Story" android:exported="false"/>
+        <activity android:name=".G13Story" android:exported="false"/>
+        <activity android:name=".G14Story" android:exported="false"/>
+        <activity android:name=".G15Story" android:exported="false"/>
+        <activity android:name=".G16Story" android:exported="false"/>
+        <activity android:name=".G17Story" android:exported="false"/>
+        <activity android:name=".G18Story" android:exported="false"/>
+        <activity android:name=".G19Story" android:exported="false"/>
+        <activity android:name=".G20Story" android:exported="false"/>
+        <activity android:name=".G21Story" android:exported="false"/>
+        <activity android:name=".G22Story" android:exported="false"/>
+        <activity android:name=".G23Story" android:exported="false"/>
+        <activity android:name=".G24Story" android:exported="false"/>
+        <activity android:name=".G25Story" android:exported="false"/>
+        <activity android:name=".G26Story" android:exported="false"/>
+        <activity android:name=".G27Story" android:exported="false"/>
+        <activity android:name=".G28Story" android:exported="false"/>
+        <activity android:name=".G29Story" android:exported="false"/>
+        <activity android:name=".G30Story" android:exported="false"/>
+        <activity android:name=".G31Story" android:exported="false"/>
+        <activity android:name=".G32Story" android:exported="false"/>
+        <activity android:name=".G33Story" android:exported="false"/>
+        <activity android:name=".G34Story" android:exported="false"/>
+        <activity android:name=".G35Story" android:exported="false"/>
+        <activity android:name=".G36Story" android:exported="false"/>
+        <activity android:name=".G37Story" android:exported="false"/>
+        <activity android:name=".G38Story" android:exported="false"/>
+        <activity android:name=".G39Story" android:exported="false"/>
+        <activity android:name=".G40Story" android:exported="false"/>
+        <activity android:name=".G100Story" android:exported="false"/>
+
+
+    </application>
+</manifest>

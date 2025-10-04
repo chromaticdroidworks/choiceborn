@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">storyidea2</string>
+    <string name="header_image">Header Bild</string>
+    <string name="to_home">Zur Startseite</string>
+
+    <string name="lorem_short_b2"> Dachboden, du hörst unter dir Schritte. Nazis sind da.
+        Ende</string>
+
+    <string name="lorem_short_b1">Diese Geschichte handelt von einer Welt die wir alle erkennen,
+        mal gucken ob du überleben kannst. Doch überlege weise. Willst du vor Hitler flüchten,
+        ihn versuchen zu töten, oder lieber mitspielen.</string>
+
+    <string name="lorem_short_g1"> Eine Geschichte voller Gefahren. Fühlt ihr euch gewappnet
+        gegen die Krone der Schöpfung anzutreten? </string>
+
+    <string name="lorem_short_a2">Diese App führt dich durch zu verschiedenen Szenarien die
+        dich durch ganze Welten tragen. Hinter jeder Reaktion kann dein Leben, oder aber
+        dein Tod stehen. Also wähle weise.</string>
+
+    <string name="lorem_short_a3">Zweiter Text A3</string>
+    <string name="lorem_short_a4">Dritter Text A4</string>
+    <string name="lorem_short_a5">Vierter Text A5</string>
+    <string name="lorem_short_a6">Text A6</string>
+    <string name="lorem_short_a7"> Text A7</string>
+    <string name="lorem_short_a8"> Text A8</string>
+    <string name="lorem_short_a9"> Text A9</string>
+    <string name="lorem_short_a10"> Text A10</string>
+    <string name="lorem_short_a11"> Text A11</string>
+    <string name="lorem_short_a12"> Text A12</string>
+    <string name="lorem_short_a13"> Text A13</string>
+    <string name="lorem_short_a14"> Text A14</string>
+    <string name="lorem_short_a15"> Text A15</string>
+    <string name="lorem_short_a16"> Text A16</string>
+    <string name="lorem_short_a17"> Text A17</string>
+    <string name="lorem_short_a18"> Text A18</string>
+    <string name="lorem_short_a19"> Text A19</string>
+    <string name="lorem_short_a20"> Text A20</string>
+    <string name="lorem_short_a21"> Text A21</string>
+    <string name="lorem_short_a22"> Text A22</string>
+    <string name="lorem_short_a23"> Text A23</string>
+    <string name="lorem_short_a24"> Text A24</string>
+    <string name="lorem_short_a25"> Text A25</string>
+    <string name="lorem_short_a26"> Text A26</string>
+    <string name="lorem_short_a27"> Text A27</string>
+    <string name="lorem_short_a28"> Text A28</string>
+    <string name="lorem_short_a29"> Text A29</string>
+    <string name="lorem_short_a30"> Text A30</string>
+    <string name="lorem_short_a31"> Text A31</string>
+    <string name="lorem_short_a32"> Text A32</string>
+    <string name="lorem_short_a33"> Text A33</string>
+    <string name="lorem_short_a34"> Text A34</string>
+    <string name="lorem_short_a35"> Text A35</string>
+    <string name="lorem_short_a36"> Text A36</string>
+    <string name="lorem_short_a37"> Text A37</string>
+    <string name="lorem_short_a38"> Text A38</string>
+    <string name="lorem_short_a39"> Text A39</string>
+    <string name="lorem_short_a40"> Text A40</string>
+    <string name="lorem_short_a41"> Text A41, erfolgreich geschafft.</string>
+    <string name="lorem_short_a42"> Text A42</string>
+    <string name="lorem_short_a43"> Text A43</string>
+    <string name="lorem_short_a44"> Text A44</string>
+    <string name="lorem_short_a45"> Text A45</string>
+    <string name="lorem_short_a46"> Text A46</string>
+    <string name="lorem_short_a47"> Text A47</string>
+    <string name="lorem_short_a48"> Text A48</string>
+    <string name="lorem_short_a49"> Text A49</string>
+    <string name="lorem_short_a50"> Text A50</string>
+    <string name="lorem_short_a51"> Text A51</string>
+    <string name="lorem_short_a52"> Text A52</string>
+    <string name="lorem_short_a53"> Text A53</string>
+    <string name="lorem_short_a54"> Text A54</string>
+    <string name="lorem_short_a55"> Text A55</string>
+
+    <string name="g2"> Jahr 2073. \n
+Du lebst in einem abgelegenen Dorf, das am Ende einer steilen Gebirgskette liegt.
+        Hier oben scheint die Welt noch so, wie sie vor Jahrzehnten war – kaum Technologie,
+        viel Handarbeit, ein paar alte Maschinen, die mehr schlecht als recht laufen.
+Doch heute verändert sich alles. Ein tiefes Brummen hallt durch die schmalen Täler.
+        Metallische Körper bewegen sich auf den engen Pfaden. Es sind Roboter – hochentwickelt,
+        glänzend und fremd. Noch nie hat dein Dorf so etwas gesehen. Die Menge sammelt sich
+        am Dorfplatz. Einige Kinder rennen neugierig näher, die Älteren ziehen sich ängstlich
+        zurück. Alle Blicke richten sich auf dich. Aus irgendeinem Grund spürst du,
+        dass du derjenige bist, der handeln muss. g2</string>
+
+    <string name="g3"> Du gehst Schritt für Schritt auf die Roboter zu.
+Ihre metallenen Glieder bewegen sich gleichmäßig, die Augen glimmen in einem kalten, blauen Licht.
+Als du deine Hand hebst, bleibt die vorderste Maschine stehen. Ein leises Klicken ertönt,
+        dann öffnet sich eine Luke in seiner Brust. Eine Stimme spricht, klar und künstlich:
+„Identifiziere dich. Bewohner dieses Sektors, bist du loyal zur Menschheit – oder den Maschinen?“
+Du spürst die Spannung. Hinter dir raunt das Dorf.
+Jetzt musst du eine Entscheidung treffen: g3 </string>
+
+    <string name="g4"> Du breitest die Arme aus und rufst laut:
+„Alle zurück! Niemand weiß, ob sie Freund oder Feind sind!“
+Die Dorfbewohner hören auf dich und weichen zurück. Nur ein paar Kinder bleiben neugierig stehen,
+        bis ihre Eltern sie wegziehen. Die Roboter stoppen. Sie scheinen dich zu fixieren –
+        du bist der Einzige, der sich ihnen entgegenstellt. Plötzlich richtet einer von ihnen
+        ein Objekt auf dich. Ein Sensor? Oder eine Waffe? Du spürst, dass die nächste Handlung
+        entscheidend sein wird. g4 </string>
+
+    <string name="g5"> Du nutzt die Aufregung, um dich davonzuschleichen. Niemand bemerkt,
+        wie du zwischen den Hütten hindurch in Richtung des Gebirgspfades läufst.
+Die Luft wird dünner, die Geräusche der Roboter leiser. Doch plötzlich hörst du etwas hinter
+        dir – nicht Maschinen, sondern Schritte. Jemand folgt dir.
+Als du dich umdrehst, siehst du eine Gestalt: Ein junger Mann in abgetragener Kleidung,
+        den du noch nie zuvor im Dorf gesehen hast. Er mustert dich und flüstert:
+„Sie sind nicht zum ersten Mal hier. Glaub mir, ich weiß mehr, als ich sollte.
+        Aber wenn du weiterleben willst, musst du dich entscheiden.“ g5 </string>
+
+    <string name="g6"> g6 </string>
+    <string name="g7"> Die Maschinen verharren.
+Dann spricht die Stimme wieder, schneidend und kühl:
+„Verstehst du auch, dass nicht alle deines Dorfes deiner Ansicht sind?“
+Ihre Augen flackern, als sie deine Gesichtsmuskeln scannen. Du spürst, dass sie dich durchschauen.
+„Wir bitten dich, uns jene zu übergeben, die gegen uns sind.“
+Nun musst du entscheiden: g7 </string>
+
+    <string name="g8"> g8</string>
+    <string name="g9"> Du greifst nach einem Stein und hältst ihn hoch.
+Die Roboter scannen dich – und werten deine Geste als feindlich.
+Ein gleißendes Licht, ein ohrenbetäubender Knall.
+Du rennst, dein Herz rast, Adrenalin treibt dich an.
+Hinter dir bebt die Erde, eine Druckwelle wirft dich fast zu Boden.
+Du weißt: Zurückblicken wäre dein Ende. g9</string>
+
+    <string name="g10"> Die Maschinen stoppen ihre Bewegung.
+Ein roter Strahl gleitet über die Häuser, über Felder, über Menschen.
+Sie scannen. Keine Waffen. Keine Bedrohung. Dann, so plötzlich wie sie kamen,
+        drehen sie sich um und marschieren davon. Das Dorf atmet auf – fürs Erste. g10</string>
+
+    <string name="g11"> Der Älteste tritt hervor, sein Rücken gebeugt, seine Stimme fest:
+„Wir haben nichts zu verbergen.“ Er lässt die Roboter gewähren, beantwortet ihre Fragen,
+        zeigt ihnen alte Metallteile und Werkzeuge. Die Maschinen nehmen, was sie brauchen,
+        und ziehen schweigend ab. Das Dorf lebt weiter – doch die Erinnerung an diesen Tag
+        wird bleiben. g11</string>
+
+    <string name="g12"> Er nickt und führt dich weiter. Stunden später erreicht ihr eine
+        versteckte Höhle. Drinnen siehst du primitive Schlaflager, alte Technikreste, Karten.
+Dies ist sein Lager – und vielleicht dein neues Zuhause. g12 </string>
+
+    <string name="g13"> Du forderst Antworten, doch er lächelt nur müde. „Manche Dinge musst
+        du allein begreifen.“ Dann dreht er sich um, verschwindet im Felslabyrinth –
+        und lässt dich allein zurück. g13</string>
+
+    <string name="g14"> Ohne zu zögern drehst du dich weg. Du steigst höher und höher,
+        bis der Wind deine Gedanken zerreißt. Allein gehst du weiter, das Gebirge dein
+        einziger Begleiter. g14 </string>
+
+    <string name="g15"> Mit zitternder Stimme erklärst du den Maschinen, wer in deinem
+        Dorf gegen sie ist. Ohne Zögern marschieren sie los. Metallische Arme packen deine
+        Nachbarn, kalte Sensoren durchbohren die Menge. Schreie hallen, Schüsse krachen –
+        und es ist vorbei. Du bist der Einzige, der überlebt, doch nicht aus Stärke,
+        sondern aus Verrat. Die Blicke der Überlebenden brennen sich in dich. Niemand wird
+        dir je wieder vertrauen. Noch in derselben Nacht verlässt du das Dorf und gehst ins
+        Gebirge. Allein. g15 </string>
+
+    <string name="g16"> Alle hier stehen zu euch“, sagst du. Deine Stimme klingt fest,
+        doch dein Herz rast. Die Roboter scannen. Ein rotes Licht wandert über die Gesichter
+        der Dorfbewohner. Dann ertönt die kalte Stimme: „Täuschungsversuch erkannt.
+        Abweichler identifiziert.“ Zielgerichtet greifen sie zu. Die „Verräter“ werden
+        herausgerissen, ohne Möglichkeit zur Flucht. Du stürzt zu Boden, unfähig einzugreifen.
+        Deine Hände zittern, dein Magen verkrampft. Doch das Dorf überlebt. Und aus dem Schmerz
+        und der Wut wächst etwas Neues: Eine Rebellentruppe, entschlossen, den Maschinen
+        eines Tages die Stirn zu bieten. g16 </string>
+
+    <string name="g17"> g17 </string>
+
+    <string name="g18"> g18 </string>
+
+    <string name="g19"> g19 </string>
+
+    <string name="g20"> g20 </string>
+
+    <string name="g21"> Der kalte Wind peitscht dir ins Gesicht, während du dich weiter durch
+        das steinige Gelände kämpfst. Jeder Schritt entfernt dich vom Dorf – und bringt dich
+        tiefer in eine ungewisse Zukunft. Die Sonne senkt sich langsam, Schatten kriechen
+        über das Gestein. Jetzt musst du dich entscheiden: g21 </string>
+
+    <string name="g22"> Du beginnst den Aufstieg. Die Luft wird dünner, dein Atem schwer.
+        Doch mit jedem Meter spürst du, wie das Land unter dir kleiner wird. Von hier oben
+        erkennst du Rauchschwaden in der Ferne – vielleicht ein anderes Dorf? Oder das Werk der
+        Maschinen? Die Nächte sind eisig, Nahrung ist rar, aber oben lockt Sicherheit.
+        Kaum jemand könnte dir hier folgen. g22 </string>
+
+    <string name="g23"> Du wendest dich nach unten, weg von den Felsen, hin zu den Tälern.
+        Bald schon hörst du wieder Wasser plätschern, siehst grüne Wiesen und Wälder.
+        Vielleicht findest du hier neue Siedlungen, vielleicht Gefahren, die du noch nie erlebt
+        hast. Doch der Weg nach unten bedeutet auch, dass dich die Maschinen leichter finden
+        können. g23 </string>
+
+    <string name="g24"> Du entscheidest dich für den schmalen Grat, der sich wie ein Knochengerüst
+        durch den Himmel zieht. Links der Abgrund, rechts die Steilwand – jeder Schritt könnte
+        dein letzter sein. Doch von hier hast du den besten Überblick. Du siehst Täler, Flüsse,
+        und vielleicht sogar Routen, die dich zu neuen Menschen führen könnten. Der Weg ist riskant,
+        aber er verspricht Entdeckungen. g24 </string>
+
+    <string name="g25"> Je weiter du ins Tal hinabsteigst, desto deutlicher erkennst du Bewegung in der Ferne.
+Zwischen den Häusern patrouillieren kalte, blaue Lichter, wie Wächter in der Nacht.
+Hoch über dir ziehen rote Punkte über den Himmel – Drohnen, die den Boden nach Leben absuchen.
+
+Mit jedem Schritt wird dir klar, wie trügerisch die Sicherheit in den Bergen war.
+Dort oben hattest du Hunger, Kälte und Einsamkeit – doch hier unten lauert ein anderes Schicksal:
+Das metallische Auge der Maschinen.
+
+Ein bitterer Gedanke schneidet durch dich:
+Wie glücklich musst du eigentlich gewesen sein, oben, fernab dieser Schatten aus Stahl?
+
+Doch Trauer ist jetzt ein Luxus, den du dir nicht leisten kannst.
+Wenn du nicht bald handelst, werden Hunger oder Durst dich zwingen –
+oder schlimmer noch: die Maschinen werden dich finden. g25 </string>
+
+    <string name="g26"> g26 </string>
+    <string name="g27"> g27 </string>
+    <string name="g28"> g28 </string>
+    <string name="g29"> g29 </string>
+    <string name="g30"> g30 </string>
+    <string name="g31"> g31 </string>
+    <string name="g32"> g32 </string>
+    <string name="g33"> g33 </string>
+    <string name="g34"> g34 </string>
+    <string name="g35"> g35 </string>
+    <string name="g36"> g36 </string>
+    <string name="g37"> g37 </string>
+    <string name="g38"> g38 </string>
+    <string name="g39"> g39 </string>
+    <string name="g40"> g40 </string>
+    <string name="g41"> g41 </string>
+
+    <string name="xg1"> Die Maschinen reagieren sofort. Ohne ein weiteres Wort bewegen sie
+        sich auf dich zu. Du willst dich noch wehren, doch ihre Kraft und Geschwindigkeit
+        sind überwältigend. Ein harter Schlag trifft dich – und es ist dein letzter.
+        Deine Geschichte endet hier. xg1 </string>
+
+    <string name="xg2"> Die Maschinen betrachten dich lange. Sie sehen die Angst in deinen Augen,
+        die angespannte Haltung, die Schweißperlen auf deiner Stirn. „Kampfgeist erkannt.
+        Angst erkannt. Unbrauchbar.“ Ohne Vorwarnung stürmen sie vorwärts. Du bist chancenlos.
+        Deine Geschichte endet hier. xg2 </string>
+
+    <string name="xg3"> Ein lauter Knall zerreißt die Stille.
+Du blickst hoch – und Sekunden später kracht es erneut. Explosionen haben den Fels gelöst.
+Ein Steinschlag donnert auf dich nieder. Du rennst, stolperst, doch die Masse ist schneller.
+
+Felsbrocken begraben dich. Dein letzter Gedanke ist der Versuch, noch einmal Luft zu holen.
+Doch du schaffst es nicht, den Berg zu verlassen.
+
+Deine Geschichte endet hier. xg3 </string>
+    <string name="xg4"> xg4 </string>
+    <string name="xg5"> xg5 </string>
+    <string name="xg6"> xg6 </string>
+
+    <string name="lorem_short_x1">Das erste mal gestorben x1</string>
+    <string name="lorem_short_x2">Und das 2. mal gestorben x2</string>
+    <string name="lorem_short_x3">Und wieder konntest du nicht flüchten x3</string>
+    <string name="lorem_short_x4">Das nächste mal pass besser auf x4</string>
+    <string name="lorem_short_x5">Beim nächsten mal wirds besser x5</string>
+    <string name="lorem_short_x6">Jeder tod ist einmalig x6</string>
+    <string name="lorem_short_x7">Du hast verloren x7</string>
+    <string name="lorem_short_x8">Man kann nicht immer gewinnen x8</string>
+    <string name="lorem_short_x9">Nicht alle Trolle freuen sich über musik x9</string>
+    <string name="lorem_short_x10">Lasst es uns erneut versuchen x10</string>
+    <string name="lorem_short_x11">Der Wille ist der halbe Weg x11</string>
+    <string name="lorem_short_x12">Tod und Vergiftung sind nun dein x12</string>
+    <string name="second_screen_text">Das ist die zweite Ansicht mit derselben Struktur. a3</string>
+    <string name="close">Schließen</string>
+    <string name="impressum_title">Impressum</string>
+
+    <string name="impressum_long">
+        Angaben gemäß § 5 DDG
+Chromatic Droidworks (Einzelunternehmen)
+\nInh.: Chris-M. A. Hönscheidt
+\n45351 Essen, Deutschland
+\n
+\nKontakt
+\nTel.: 0231 / 13029713
+\nE-Mail: chromatic.droidworks@gmail.com
+\n
+\nSpendenhinweis
+\n______________
+\nDa wir uns nicht über Werbung finanzieren, freuen wir uns über eine kleine Spende via PayPal:
+\nBenutzername: Chromatic Droidworks
+\noder direkt an: chromatic.droidworks@gmail.com
+\n_________________________________________
+\n
+\nInhalte
+\nDiese App dient der Demonstration. Für Vollständigkeit, Richtigkeit und Aktualität der Inhalte wird keine Haftung übernommen.
+\n
+\nHaftung für Links
+\nExterne Links wurden zum Zeitpunkt der Verlinkung sorgfältig geprüft. Für deren Inhalte sind ausschließlich deren Betreiber verantwortlich.
+\n
+\nUrheberrecht
+\nAlle in dieser App veröffentlichten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Schranken des UrhG bedürfen der vorherigen schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+\n
+\nDatenschutz
+\nOhne Ihre ausdrückliche Zustimmung werden keine personenbezogenen Daten erhoben, verarbeitet oder gespeichert. Weitere Informationen erhalten Sie auf Anfrage.
+\n
+\nVerbraucherstreitbeilegung (§ 36 VSBG)
+\nWir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+\n
+\nGerichtsstand
+\nSoweit gesetzlich zulässig, ist der Gerichtsstand Essen.
+\n
+\nStand: 09/2025
+    </string>
+</resources>
