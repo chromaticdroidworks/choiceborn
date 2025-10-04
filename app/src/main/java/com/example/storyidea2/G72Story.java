@@ -9,12 +9,12 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.PopupMenu;
 
-public class G100Story extends AppCompatActivity {
+public class G72Story extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.g100story);
+        setContentView(R.layout.g72story);
 
         // Overflow/Drei-Punkte-Button (oben rechts): Menü
         ImageButton more = findViewById(R.id.btnOverflow);
@@ -23,7 +23,7 @@ public class G100Story extends AppCompatActivity {
         }
 
         // Alle 3 Buttons -> A4ThirdActivity
-        Intent next = new Intent(G100Story.this, G100Story.class);
+        Intent next = new Intent(G72Story.this, G73Story.class);
 
         Button b1 = findViewById(R.id.btnOne);
         Button b2 = findViewById(R.id.btnTwo);
