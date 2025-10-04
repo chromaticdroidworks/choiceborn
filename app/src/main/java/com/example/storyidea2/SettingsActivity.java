@@ -4,11 +4,11 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.SeekBar;
-import android.widget.Switch;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.appcompat.widget.SwitchCompat;
 
 public class SettingsActivity extends AppCompatActivity {
 
@@ -17,8 +17,8 @@ public class SettingsActivity extends AppCompatActivity {
     private static final String KEY_THEME = "theme_mode";     // 0 = System, 1 = Light, 2 = Dark
     private static final String KEY_TEXTSIZE = "text_scale";  // Prozentwert 100–150
 
-    private Switch swSound;
-    private Switch swThemeDark;   // an = Dark, aus = System
+    private SwitchCompat swSound;
+    private SwitchCompat swThemeDark;   // an = Dark, aus = System
     private SeekBar sbTextScale;
     private Button btnSave;
 
