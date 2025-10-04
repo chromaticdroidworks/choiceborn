@@ -12,7 +12,7 @@ public class A2MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a2activity_main);
+        setContentView(R.layout.a2story);
 
         // 3-Punkte-Button (oben rechts) -> Popup-Menü
         ImageButton more = findViewById(R.id.btnOverflow);

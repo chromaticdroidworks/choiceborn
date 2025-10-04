@@ -14,7 +14,7 @@ public class A15Story extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a15activity_fourteenth);
+        setContentView(R.layout.a15story);
 
         // Overflow/Drei-Punkte-Button (oben rechts): Menü
         ImageButton more = findViewById(R.id.btnOverflow);
