@@ -16,14 +16,12 @@ public class A40Story extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.a40story);
 
-        // Overflow/Drei-Punkte-Button (oben rechts): Menü
         ImageButton more = findViewById(R.id.btnOverflow);
         if (more != null) {
             more.setOnClickListener(v -> showSideMenu(more));
         }
 
-        // Alle 3 Buttons -> A4ThirdActivity
-        Intent next = new Intent(A40Story.this, A100Story.class);
+        Intent next = new Intent(A40Story.this, A41Story.class);
 
         Button b1 = findViewById(R.id.btnOne);
         Button b2 = findViewById(R.id.btnTwo);
@@ -43,15 +41,13 @@ public class A40Story extends AppCompatActivity {
         }
     }
 
-
     private void showSideMenu(View anchor) {
         PopupMenu pm = new PopupMenu(this, anchor);
         pm.getMenuInflater().inflate(R.menu.overflow_menu, pm.getMenu());
         pm.setOnMenuItemClickListener(item -> {
             int id = item.getItemId();
             if (id == R.id.action_home) {
-                // <-- An deine echte Startseite anpassen!
-                Intent home = new Intent(this, A2MainActivity.class); // oder A2Story.class
+                Intent home = new Intent(this, A2MainActivity.class);
                 home.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(home);
                 return true;

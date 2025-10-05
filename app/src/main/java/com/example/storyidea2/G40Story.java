@@ -23,7 +23,7 @@ public class G40Story extends AppCompatActivity {
         }
 
         // Alle 3 Buttons -> A4ThirdActivity
-        Intent next = new Intent(G40Story.this, G100Story.class);
+        Intent next = new Intent(G40Story.this, G41Story.class);
 
         Button b1 = findViewById(R.id.btnOne);
         Button b2 = findViewById(R.id.btnTwo);
