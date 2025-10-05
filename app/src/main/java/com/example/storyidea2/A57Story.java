@@ -9,27 +9,26 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.PopupMenu;
 
-public class A100Story extends AppCompatActivity {
+public class A57Story extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a100story);
+        setContentView(R.layout.a57story);
 
         ImageButton more = findViewById(R.id.btnOverflow);
         if (more != null) {
             more.setOnClickListener(v -> showSideMenu(more));
         }
 
-        Intent homeIntent = new Intent(this, A2MainActivity.class);
-        homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        Intent next = new Intent(A57Story.this, A58Story.class);
 
         Button b1 = findViewById(R.id.btnOne);
         Button b2 = findViewById(R.id.btnTwo);
         Button b3 = findViewById(R.id.btnThree);
 
         if (b1 != null) {
-            b1.setOnClickListener(v -> startActivity(homeIntent));
+            b1.setOnClickListener(v -> startActivity(next));
         }
         if (b2 != null) {
             b2.setOnClickListener(v -> {
@@ -38,7 +37,7 @@ public class A100Story extends AppCompatActivity {
             });
         }
         if (b3 != null) {
-            b3.setOnClickListener(v -> startActivity(homeIntent));
+            b3.setOnClickListener(v -> startActivity(next));
         }
     }
 

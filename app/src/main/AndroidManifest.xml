@@ -57,6 +57,65 @@
         <activity android:name=".A38Story" android:exported="false" />
         <activity android:name=".A39Story" android:exported="false" />
         <activity android:name=".A40Story" android:exported="false" />
+        <activity android:name=".A41Story" android:exported="false" />
+        <activity android:name=".A42Story" android:exported="false" />
+        <activity android:name=".A43Story" android:exported="false" />
+        <activity android:name=".A44Story" android:exported="false" />
+        <activity android:name=".A45Story" android:exported="false" />
+        <activity android:name=".A46Story" android:exported="false" />
+        <activity android:name=".A47Story" android:exported="false" />
+        <activity android:name=".A48Story" android:exported="false" />
+        <activity android:name=".A49Story" android:exported="false" />
+        <activity android:name=".A50Story" android:exported="false" />
+        <activity android:name=".A51Story" android:exported="false" />
+        <activity android:name=".A52Story" android:exported="false" />
+        <activity android:name=".A53Story" android:exported="false" />
+        <activity android:name=".A54Story" android:exported="false" />
+        <activity android:name=".A55Story" android:exported="false" />
+        <activity android:name=".A56Story" android:exported="false" />
+        <activity android:name=".A57Story" android:exported="false" />
+        <activity android:name=".A58Story" android:exported="false" />
+        <activity android:name=".A59Story" android:exported="false" />
+        <activity android:name=".A60Story" android:exported="false" />
+        <activity android:name=".A61Story" android:exported="false" />
+        <activity android:name=".A62Story" android:exported="false" />
+        <activity android:name=".A63Story" android:exported="false" />
+        <activity android:name=".A64Story" android:exported="false" />
+        <activity android:name=".A65Story" android:exported="false" />
+        <activity android:name=".A66Story" android:exported="false" />
+        <activity android:name=".A67Story" android:exported="false" />
+        <activity android:name=".A68Story" android:exported="false" />
+        <activity android:name=".A69Story" android:exported="false" />
+        <activity android:name=".A70Story" android:exported="false" />
+        <activity android:name=".A71Story" android:exported="false" />
+        <activity android:name=".A72Story" android:exported="false" />
+        <activity android:name=".A73Story" android:exported="false" />
+        <activity android:name=".A74Story" android:exported="false" />
+        <activity android:name=".A75Story" android:exported="false" />
+        <activity android:name=".A76Story" android:exported="false" />
+        <activity android:name=".A77Story" android:exported="false" />
+        <activity android:name=".A78Story" android:exported="false" />
+        <activity android:name=".A79Story" android:exported="false" />
+        <activity android:name=".A80Story" android:exported="false" />
+        <activity android:name=".A81Story" android:exported="false" />
+        <activity android:name=".A82Story" android:exported="false" />
+        <activity android:name=".A83Story" android:exported="false" />
+        <activity android:name=".A84Story" android:exported="false" />
+        <activity android:name=".A85Story" android:exported="false" />
+        <activity android:name=".A86Story" android:exported="false" />
+        <activity android:name=".A87Story" android:exported="false" />
+        <activity android:name=".A88Story" android:exported="false" />
+        <activity android:name=".A89Story" android:exported="false" />
+        <activity android:name=".A90Story" android:exported="false" />
+        <activity android:name=".A91Story" android:exported="false" />
+        <activity android:name=".A92Story" android:exported="false" />
+        <activity android:name=".A93Story" android:exported="false" />
+        <activity android:name=".A94Story" android:exported="false" />
+        <activity android:name=".A95Story" android:exported="false" />
+        <activity android:name=".A96Story" android:exported="false" />
+        <activity android:name=".A97Story" android:exported="false" />
+        <activity android:name=".A98Story" android:exported="false" />
+        <activity android:name=".A99Story" android:exported="false" />
         <activity android:name=".A100Story" android:exported="false" />
         <activity android:name=".X1Death" android:exported="false" />
         <activity android:name=".B1MainActivity" android:exported="false"/>
