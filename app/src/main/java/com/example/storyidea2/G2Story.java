@@ -30,7 +30,7 @@ public class G2Story extends AppCompatActivity {
         Button b3 = findViewById(R.id.btnThree);
 
         if (b1 != null) {
-            b2.setOnClickListener(v -> {                               // zu G4
+            b1.setOnClickListener(v -> {                               // zu G3
                 Intent i = new Intent(this, G3Story.class);
                 startActivity(i);
             });
