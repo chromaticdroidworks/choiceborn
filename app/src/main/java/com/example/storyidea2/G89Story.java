@@ -29,7 +29,7 @@ public class G89Story extends AppCompatActivity {
         Button b2 = findViewById(R.id.btnTwo);
         Button b3 = findViewById(R.id.btnThree);
         if (b1 != null) {
-            b2.setOnClickListener(v -> {                               // zu G4
+            b1.setOnClickListener(v -> {                               // zu G4 
                 Intent i = new Intent(this, G3Story.class);
                 startActivity(i);
             });
@@ -46,6 +46,7 @@ public class G89Story extends AppCompatActivity {
                 startActivity(i);
             });
         }
+
     }
 
     private void showSideMenu(View anchor) {
