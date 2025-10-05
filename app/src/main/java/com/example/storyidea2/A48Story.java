@@ -26,19 +26,25 @@ public class A48Story extends AppCompatActivity {
         Button b1 = findViewById(R.id.btnOne);
         Button b2 = findViewById(R.id.btnTwo);
         Button b3 = findViewById(R.id.btnThree);
-
         if (b1 != null) {
-            b1.setOnClickListener(v -> startActivity(next));
+            b1.setOnClickListener(v -> {                                
+                Intent i = new Intent(this, A3Story.class); 
+                startActivity(i);
+            });
         }
         if (b2 != null) {
-            b2.setOnClickListener(v -> {
-                Intent deathIntent = new Intent(this, X6Death.class);
-                startActivity(deathIntent);
+            b2.setOnClickListener(v -> {                             
+                Intent i = new Intent(this, A4Story.class); 
+                startActivity(i);
             });
         }
         if (b3 != null) {
-            b3.setOnClickListener(v -> startActivity(next));
+            b3.setOnClickListener(v -> {                               
+                Intent i = new Intent(this, A5Story.class); 
+                startActivity(i);
+            });
         }
+
     }
 
     private void showSideMenu(View anchor) {
