@@ -13,69 +13,77 @@
         android:background="?attr/selectableItemBackgroundBorderless"
         android:contentDescription="@string/close"
         android:padding="8dp"
-        android:src="@drawable/ic_more_vert_24"
+        app:srcCompat="@drawable/ic_more_vert_24"
         app:tint="?attr/colorOnSurface"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"/>
+        android:layout_marginEnd="8dp" />
 
-    <!-- Bild (unter dem Close-Button) -->
-    <ImageView
-        android:id="@+id/headerImage"
+    <ScrollView
+        android:id="@+id/contentScroll"
         android:layout_width="0dp"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/image_live_hell"
-        android:contentDescription="@string/header_image"
+        android:layout_height="0dp"
+        android:fillViewport="true"
         app:layout_constraintTop_toBottomOf="@id/btnOverflow"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp"/>
+        app:layout_constraintBottom_toTopOf="@id/buttonColumn">
 
-    <!-- Mitte: Text -->
-    <TextView
-        android:id="@+id/descriptionText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:lineSpacingExtra="2dp"
-        android:text="@string/lorem_short_a2"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonColumn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/headerImage" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <!-- Unten: 3 Buttons untereinander -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/headerImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/header_image"
+                app:srcCompat="@drawable/image_live_hell" />
+
+            <TextView
+                android:id="@+id/descriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/lorem_short_a2"
+                android:textSize="16sp"
+                android:lineSpacingExtra="2dp" />
+        </LinearLayout>
+    </ScrollView>
+
     <LinearLayout
         android:id="@+id/buttonColumn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
             android:id="@+id/btnOne"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Beginn die Reise"
-            android:layout_marginBottom="12dp"/>
-
+            android:text="Furchtlos vortreten"
+            android:layout_marginBottom="12dp" />
 
         <Button
             android:id="@+id/btnTwo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Schließen"
-            android:layout_marginBottom="12dp"/>
+            android:text="Die Dorfbewohner warnen"
+            android:layout_marginBottom="12dp" />
 
         <Button
             android:id="@+id/btnThree"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Impressum"/>
+            android:text="Unauffällig verschwinden" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

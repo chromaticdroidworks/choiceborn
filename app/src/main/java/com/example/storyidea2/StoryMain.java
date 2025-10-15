@@ -1,42 +1,44 @@
 package com.example.storyidea2;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.PopupMenu;
 
-public class A2MainActivity extends AppCompatActivity {
+public class StoryMain extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a2story);
+        setContentView(R.layout.story_main);
 
-        // 3-Punkte-Button (oben rechts) -> Popup-Menü
         ImageButton more = findViewById(R.id.btnOverflow);
         if (more != null) {
-            more.setOnClickListener(this::showSideMenu);
+            more.setOnClickListener(v -> showSideMenu(more));
         }
 
-        // Button 1: zur A3SecondActivity
-        Button btnOne = findViewById(R.id.btnOne);
-        if (btnOne != null) {
-            btnOne.setOnClickListener(v ->
-                    startActivity(new Intent(this, A3Story.class))
+        Button btnStoryA = findViewById(R.id.btnStoryA);
+        if (btnStoryA != null) {
+            btnStoryA.setOnClickListener(v ->
+                    startActivity(new Intent(this, A2MainActivity.class))
             );
         }
 
-        // Button 2: App schließen (wie vorher)
-        Button btnTwo = findViewById(R.id.btnTwo);
-        if (btnTwo != null) btnTwo.setOnClickListener(v -> finishAndRemoveTask());
+        Button btnStoryB = findViewById(R.id.btnStoryB);
+        if (btnStoryB != null) {
+            btnStoryB.setOnClickListener(v ->
+                    startActivity(new Intent(this, B1MainActivity.class))
+            );
+        }
 
-        // Button 3: Impressum
-        Button btnThree = findViewById(R.id.btnThree);
-        if (btnThree != null) {
-            btnThree.setOnClickListener(v ->
-                    startActivity(new Intent(this, A1ImpressumActivity.class))
+        Button btnStoryG = findViewById(R.id.btnStoryG);
+        if (btnStoryG != null) {
+            btnStoryG.setOnClickListener(v ->
+                    startActivity(new Intent(this, G1MainActivity.class))
             );
         }
     }
@@ -47,7 +49,6 @@ public class A2MainActivity extends AppCompatActivity {
         pm.setOnMenuItemClickListener(item -> {
             int id = item.getItemId();
             if (id == R.id.action_home) {
-                // <-- An deine echte Startseite anpassen!
                 Intent home = new Intent(this, A0StartPage.class);
                 home.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(home);
