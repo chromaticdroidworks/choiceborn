@@ -47,8 +47,7 @@ public class A2MainActivity extends AppCompatActivity {
         pm.setOnMenuItemClickListener(item -> {
             int id = item.getItemId();
             if (id == R.id.action_home) {
-                // <-- An deine echte Startseite anpassen!
-                Intent home = new Intent(this, A2MainActivity.class); // oder A2Story.class
+                Intent home = new Intent(this, A0StartPage.class);
                 home.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(home);
                 return true;

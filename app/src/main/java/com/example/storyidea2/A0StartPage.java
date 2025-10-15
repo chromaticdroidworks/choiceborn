@@ -47,7 +47,7 @@ public class A0StartPage extends AppCompatActivity {
         pm.setOnMenuItemClickListener(item -> {
             int id = item.getItemId();
             if (id == R.id.action_home) {
-                Intent home = new Intent(this, A2MainActivity.class);
+                Intent home = new Intent(this, A0StartPage.class);
                 home.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(home);
                 return true;
