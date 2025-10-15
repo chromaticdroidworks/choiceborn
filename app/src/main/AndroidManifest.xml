@@ -11,16 +11,18 @@
         android:theme="@style/Theme.Material3.DayNight.NoActionBar">
 
 
-        <activity android:name=".A2MainActivity" android:exported="true">
+        <activity
+            android:name=".A0StartPage"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <activity android:name=".A2MainActivity" android:exported="false" />
         <activity android:name=".A1ImpressumActivity" android:exported="false" />
         <activity android:name=".StoryMain" android:exported="false" />
-        <activity android:name=".A0StartPage" android:exported="false" />
         <activity android:name=".A3Story" android:exported="false" />
         <activity android:name=".A4Story" android:exported="false" />
         <activity android:name=".A5Story" android:exported="false" />

@@ -16,7 +16,7 @@ public class StoryMain extends AppCompatActivity {
         Button btnMedieval = findViewById(R.id.btnMedieval);
         if (btnMedieval != null) {
             btnMedieval.setOnClickListener(v ->
-                    startActivity(new Intent(this, A1ImpressumActivity.class))
+                    startActivity(new Intent(this, A3Story.class))
             );
         }
 
