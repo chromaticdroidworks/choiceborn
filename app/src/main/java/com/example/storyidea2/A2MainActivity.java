@@ -20,11 +20,11 @@ public class A2MainActivity extends AppCompatActivity {
             more.setOnClickListener(this::showSideMenu);
         }
 
-        // Button 1: zur A3SecondActivity
+        // Button 1: Auswahlseite für Geschichten
         Button btnOne = findViewById(R.id.btnOne);
         if (btnOne != null) {
             btnOne.setOnClickListener(v ->
-                    startActivity(new Intent(this, A3Story.class))
+                    startActivity(new Intent(this, StoryMain.class))
             );
         }
 
@@ -47,7 +47,6 @@ public class A2MainActivity extends AppCompatActivity {
         pm.setOnMenuItemClickListener(item -> {
             int id = item.getItemId();
             if (id == R.id.action_home) {
-                // <-- An deine echte Startseite anpassen!
                 Intent home = new Intent(this, A0StartPage.class);
                 home.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(home);
