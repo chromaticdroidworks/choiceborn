@@ -19,6 +19,8 @@
         </activity>
 
         <activity android:name=".A1ImpressumActivity" android:exported="false" />
+        <activity android:name=".StoryMain" android:exported="false" />
+        <activity android:name=".A0StartPage" android:exported="false" />
         <activity android:name=".A3Story" android:exported="false" />
         <activity android:name=".A4Story" android:exported="false" />
         <activity android:name=".A5Story" android:exported="false" />
