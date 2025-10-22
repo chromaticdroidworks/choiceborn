@@ -9,6 +9,8 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.PopupMenu;
 
+import com.example.storyidea2.contact.ContactIndexActivity;
+
 public class A0StartPage extends AppCompatActivity {
 
     @Override
@@ -37,6 +39,13 @@ public class A0StartPage extends AppCompatActivity {
         if (btnThree != null) {
             btnThree.setOnClickListener(v ->
                     startActivity(new Intent(this, A1ImpressumActivity.class))
+            );
+        }
+
+        Button btnContact = findViewById(R.id.btnContact);
+        if (btnContact != null) {
+            btnContact.setOnClickListener(v ->
+                    startActivity(new Intent(this, ContactIndexActivity.class))
             );
         }
     }
