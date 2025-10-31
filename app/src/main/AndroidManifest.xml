@@ -20,6 +20,13 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".contact.ContactIndexActivity"
+            android:exported="false" />
+        <activity
+            android:name=".contact.ContactMapActivity"
+            android:exported="false" />
+
         <activity android:name=".A2MainActivity" android:exported="false" />
         <activity android:name=".A1ImpressumActivity" android:exported="false" />
         <activity android:name=".StoryMain" android:exported="false" />
